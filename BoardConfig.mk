@@ -167,5 +167,5 @@ TW_INCLUDE_FB2PNG := true
 TW_INCLUDE_NTFS_3G := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_cancunf
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_cancunf
 TARGET_RECOVERY_DEVICE_MODULES := libinit_cancunf
