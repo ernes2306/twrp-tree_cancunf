@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_cancunf",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["init_cancunf.cpp"],
+    recovery_available: true,
+}

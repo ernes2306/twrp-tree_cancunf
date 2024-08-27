@@ -162,3 +162,7 @@ TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_INCLUDE_FB2PNG := true
 TW_INCLUDE_NTFS_3G := true
+
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_cancunf
+TARGET_RECOVERY_DEVICE_MODULES := libinit_cancunf
