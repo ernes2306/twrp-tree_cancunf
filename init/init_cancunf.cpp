@@ -30,6 +30,6 @@ void vendor_load_properties()
         property_override(string("ro.product.") + prop + string("model"), "moto g54 5G");
         property_override(string("ro.product.system.") + prop + string("device"), "cancunf");
     }
-    property_override("ro.bootimage.build.date.utc", "1609430400");
-    property_override("ro.build.date.utc", "1609430400");
+    property_override("ro.bootimage.build.date.utc", "1719402745");
+    property_override("ro.build.date.utc", "1719402745");
 }
